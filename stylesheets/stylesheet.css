@@ -98,6 +98,7 @@ body {
 .blue-bg {
 
 	background-color: #55AADF;
+	overflow:hidden;
 	
 }
 
@@ -105,6 +106,10 @@ body {
     text-align: center;
     position: absolute;
     left: 50%;
+	-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform:translateX(-50%);
     transform: translateX(-50%);
 	width: 100%;
 }
@@ -136,6 +141,10 @@ body {
     width: 30vmin;
     position: absolute;
     left: 50%;
+	-webkit-transform: translateY(-70%) translateX(-50%);
+    -moz-transform: translateY(-70%) translateX(-50%);
+    -o-transform: translateY(-70%) translateX(-50%);
+    -ms-transform:translateY(-70%) translateX(-50%);
     transform: translateY(-70%) translateX(-50%);
     border-radius: 5% 32% 15% 65%;
     top: -17vmin;
@@ -149,6 +158,10 @@ body {
     width: 28vmin;
     background-color: #0E3D58;
     position: absolute;
+		-webkit-transform: translateY(-70%) translateX(-50%) rotate(28deg);
+    -moz-transform: translateY(-70%) translateX(-50%) rotate(28deg);
+    -o-transform: translateY(-70%) translateX(-50%) rotate(28deg);
+    -ms-transform:translateY(-70%) translateX(-50%) rotate(28deg);
     transform: translateY(-70%) translateX(-50%) rotate(28deg);
     border-radius: 5% 32% 35% 65%;
     left: 48%;
@@ -164,6 +177,10 @@ body {
     width: 28vmin;
     background-color: #0E3D58;
     position: absolute;
+	-webkit-transform: translateY(-70%) translateX(-50%) rotate(0deg);
+    -moz-transform: translateY(-70%) translateX(-50%) rotate(0deg);
+    -o-transform: translateY(-70%) translateX(-50%) rotate(0deg);
+    -ms-transform:translateY(-70%) translateX(-50%) rotate(0deg);
     transform: translateY(-70%) translateX(-50%) rotate(0deg);
     border-radius: 5% 32% 35% 65%;
     left: 46%;
@@ -190,6 +207,10 @@ body {
     text-align: left;
     left: 24%;
     top: 3%;
+	-webkit-transform: rotate(30deg) skewX(-30deg) scale(1,.566);
+    -moz-transform: rotate(30deg) skewX(-30deg) scale(1,.566);
+    -o-transform: rotate(30deg) skewX(-30deg) scale(1,.566);
+    -ms-transform:rotate(30deg) skewX(-30deg) scale(1,.566);
 	transform: rotate(30deg) skewX(-30deg) scale(1,.566);
 	-webkit-animation: cattwitch 5s ease-in-out 2s infinite;
     animation: cattwitch 5s ease-in-out 2s infinite;
@@ -210,9 +231,17 @@ body {
 }
 
 .cat-ear:before {
+	-webkit-transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    -moz-transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    -o-transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    -ms-transform:rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
 	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
 }
 .cat-ear:after {
+	-webkit-transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    -moz-transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    -o-transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    -ms-transform:rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
 
@@ -222,6 +251,10 @@ body {
     text-align: left;
     left: 37%;
     top: 19%;
+	-webkit-transform: rotate(108deg) skewX(-30deg) scale(1,.566);	
+    -moz-transform: rotate(108deg) skewX(-30deg) scale(1,.566);	
+    -o-transform: rotate(108deg) skewX(-30deg) scale(1,.566);	
+    -ms-transform:rotate(108deg) skewX(-30deg) scale(1,.566);	
     transform: rotate(108deg) skewX(-30deg) scale(1,.566);	
 	transition: .2s ease-in-out;
 }
@@ -240,9 +273,17 @@ body {
 }
 
 .cat-ear2:before {
+	-webkit-transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    -moz-transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    -o-transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+    -ms-transform:rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
 	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
 }
 .cat-ear2:after {
+	-webkit-transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    -moz-transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    -o-transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+    -ms-transform:rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
 
@@ -253,6 +294,10 @@ body {
     height: 20%;
     border-radius: 50%;
     left: 50%;
+	-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 46%;
 }
@@ -265,6 +310,10 @@ body {
     height: 1vmin;
     border: 1px solid #000;
     left: 50%;
+	-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     top: 100%;
 }
@@ -281,6 +330,10 @@ body {
     position: absolute;
     bottom: 13%;
     left: 50%;
+	-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 	overflow:hidden;
 }
@@ -297,6 +350,10 @@ body {
     position: absolute;
 	bottom:120%;
     left: 50%;
+	-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 	transition: .4s ease-in-out;
 }
@@ -311,6 +368,10 @@ body {
     border-left: 3vmin solid transparent;
     height: 0;
     width: 5vmin;
+	-webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
     transform: rotate(-9deg);
     position: absolute;
     top: 45%;
@@ -333,6 +394,10 @@ body {
     border-left: 3vmin solid transparent;
     height: 0;
     width: 5vmin;
+	-webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
     position: absolute;
     top: 39%;
@@ -426,6 +491,10 @@ height: 2.5vmin;
     border-left: 3vmin solid transparent;
     height: 0;
     width: 5vmin;
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
     transform: rotate(-20deg);
     position: absolute;
     top: 109%;
@@ -439,6 +508,10 @@ height: 2.5vmin;
     border-left: 3vmin solid transparent;
     height: 0;
     width: 5vmin;
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
     transform: rotate(-20deg);
     position: absolute;
     top: 109%;
@@ -455,6 +528,10 @@ height: 2.5vmin;
     position: absolute;
     background-color: #0E3D58;
     border-left: 1px solid #092738;
+	-webkit-transform: rotate(24deg);
+    -moz-transform: rotate(24deg);
+    -o-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
     transform: rotate(24deg);
     right: 6%;
     bottom: -7%;
@@ -470,6 +547,10 @@ height: 2.5vmin;
     position: absolute;
     background-color: #092738;
     border-left: 1px solid #092738;
+	-webkit-transform: rotate(24deg);
+    -moz-transform: rotate(24deg);
+    -o-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
     transform: rotate(24deg);
     right: 15%;
     bottom: -7%;
@@ -486,6 +567,10 @@ height: 2.5vmin;
     border-radius: 0% 0% 0% 0%;
     right: 15%;
     bottom: -66%;
+	-webkit-transform: rotate(-38deg);
+    -moz-transform: rotate(-38deg);
+    -o-transform: rotate(-38deg);
+    -ms-transform: rotate(-38deg);
     transform: rotate(-38deg);
 	
 }	
@@ -499,6 +584,10 @@ height: 2.5vmin;
     border-radius: 0% 0% 0% 0%;
     right: 22%;
     bottom: -66%;
+	-webkit-transform: rotate(-38deg);
+    -moz-transform: rotate(-38deg);
+    -o-transform: rotate(-38deg);
+    -ms-transform: rotate(-38deg);
     transform: rotate(-38deg);
 	z-index:-1;
 	
@@ -510,6 +599,10 @@ height: 2.5vmin;
     border-left: 3vmin solid transparent;
     height: 0;
     width: 5vmin;
+	-webkit-transform: rotate(-27deg);
+    -moz-transform: rotate(-27deg);
+    -o-transform: rotate(-27deg);
+    -ms-transform: rotate(-27deg);
     transform: rotate(-27deg);
     position: absolute;
     top: 89%;
@@ -522,6 +615,10 @@ height: 2.5vmin;
     border-left: 3vmin solid transparent;
     height: 0;
     width: 5vmin;
+	-webkit-transform: rotate(-27deg);
+    -moz-transform: rotate(-27deg);
+    -o-transform: rotate(-27deg);
+    -ms-transform: rotate(-27deg);
     transform: rotate(-27deg);
     position: absolute;
     top: 89%;

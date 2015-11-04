@@ -855,11 +855,19 @@ height: 2.5vmin;
 }
 
 .cat:hover .cat-ear {
+	    -webkit-transform: rotate(40deg) skewX(-30deg) scale(1,.566);
+    -moz-transform: rotate(40deg) skewX(-30deg) scale(1,.566);
+    -o-transform: rotate(40deg) skewX(-30deg) scale(1,.566);
+    -ms-transform: rotate(40deg) skewX(-30deg) scale(1,.566);
     transform:rotate(40deg) skewX(-30deg) scale(1,.566);
 	animation:none;
 }
 
 .cat:hover .cat-ear2 {
+	    -webkit-transform: rotate(98deg) skewX(-30deg) scale(1,.566);
+    -moz-transform: rotate(98deg) skewX(-30deg) scale(1,.566);
+    -o-transform: rotate(98deg) skewX(-30deg) scale(1,.566);
+    -ms-transform: rotate(98deg) skewX(-30deg) scale(1,.566);
     transform:rotate(98deg) skewX(-30deg) scale(1,.566);
 }
 
@@ -905,6 +913,10 @@ height: 2.5vmin;
     top: -44vmin;
     font-family: ultra;
     left: 50%;
+	    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     color: #1659A9;
 }

@@ -919,20 +919,28 @@ height: 2.5vmin;
 }
 
 .btnpop {
-  background: #3777c4;
-  position: relative;
-  padding: 15px 40px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 5px solid #1462BD;
-  color: white;
-  font-size: 25px;
-  vertical-align: middle;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  border-radius: 1px;
-  transition: all 0.1s;
+    background: #DED7C5;
+    position: relative;
+    width: 40vmin;
+    padding: 15px 40px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px solid #7C6211;
+    color: #7C6211;
+    font-size: 25px;
+    vertical-align: middle;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    transition: all 0.1s;
+    left: 50%;
+	-webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 .btnpop:hover { 
   border-bottom: 5px solid #1462BD;
